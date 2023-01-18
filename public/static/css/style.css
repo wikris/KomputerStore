@@ -1,28 +1,39 @@
+
+
 #areas {
     display: table;
-    clear: both;
+    /*clear: both;*/
 }
 
 div {
-    float: left;
-    height: auto;
-    width: 200px;
-    
+    float: left;    
+}
+
+header {
+    background-color:dimgrey;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 5px;
 }
 
 #bank {
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 35px;
+    width: 200px;
+    height: 275px;
     background-color: darkgrey;
 }
-
 
 #balanceContainer {
     display: flex;
     justify-content:space-between;
+    width: 200px;
 }
-#buttonAreaBank{
+#buttonAreaBank {
     display: flex;
     justify-content: center;
 }
@@ -30,17 +41,21 @@ div {
 #loanContainer {
     display: none;
     justify-content:space-between;
+    width: 200px;
 }
 
 #loanButton {
     display: center;
     height: 20px;
+    
 }
 
-#work{
+#work {
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 35px;
+    width: 200px;
+    height: 275px;
     background-color:azure;
 }
 
@@ -51,23 +66,24 @@ div {
 #payContainer {
     display: flex;
     justify-content: space-between;
+    width: 200px;
 }
 
-#laptopsArea{
+#laptopsArea {
+    width: 200px;
+    height: 275px;
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 35px;
     background-color: darkgrey;
 }
 
-#buyingArea{
+#buyingArea {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 35px;
     padding-left: 35px;
-    
+    padding-bottom: 35px;
+    width: 775px;
+    background-color: azure;
 }
-
-/*#laptopTitleAndDescription{
-    
-}*/

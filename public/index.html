@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Komputer Store</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="/public/static/css/style.css" rel="stylesheet">
   </head>
   <body>
     <main id="areas">
+      <header>
+        <h1>Komputer Store</h1>
+      </header>
       <div id="bank">
         <h2>Joe Banker</h2>
         <div id="balanceContainer">
@@ -46,13 +49,20 @@
     <img src="" width="100" height="100" id="laptopImage">
       <div id="laptopTitleAndDescription">
         <h2 id="laptopName"></h2>
-        <p id="laptopDescription">dad</p>
+        <p id="laptopDescription"></p>
       </div>
-    <div>
-    <span id="laptopPrice">123</span>
-    <button id="buyButton">Buy</button>
-    </div>
+      <div>
+        <p>Price: <span id="laptopPrice"></span></p>
+        <button id="buyButton">Buy</button>
+      </div>
    </div>
-   <script src="./app.js"></script>
+   <script src="/public/static/js/main.js"></script>
+   <script src="/public/static/js/getLoanButton.js"></script>
+   <script src="/public/static/js/bankButton.js"></script>
+   <script src="/public/static/js/workButton.js"></script>
+   <script src="/public/static/js/repayLoanButton.js"></script>
+   <script src="/public/static/js/fetchingData.js"></script>
+   <script src="/public/static/js/changingFeatures.js"></script>
+   <script src="/public/static/js/buyButton.js"></script>
   </body>
 </html>
