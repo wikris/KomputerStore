@@ -1,6 +1,6 @@
 # KomputerStore
 First Assignment of Noroff .NET Fullstack Bootcamp.
-In this assignment we made web page for computer store where you can buy laptops.
+In this assignment we made computer store web page where you can buy laptops.
 You can buy laptops by gaining money or taking a loan.
 
 This project was made with HTML, CSS and JavaScript.
